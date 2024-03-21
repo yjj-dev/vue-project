@@ -1,9 +1,9 @@
-# to do list 
+# to do list
 
+- vite
 - vue3
-- vite 
-
-
+- pinia
+- axios
 
 ```bash
 
@@ -11,10 +11,16 @@ npm install -g vite
 npm init vite 01-to-do-list
 
 npm install
-npm run dev
+npm i pinia axios json-server
 
+npm run dev
 http://localhost:5173/
+
+---
+
+json-server --watch ./dummy/db.json --port 9999
+
 ```
 
 
-https://stackblitz.com/edit/vitejs-vite-fcbvky?file=src%2Fview%2FToDoList.vue
+https://stackblitz.com/edit/vitejs-vite-zzutuc?file=src%2Fview%2FToDoList.vue
