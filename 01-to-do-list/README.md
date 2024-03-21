@@ -24,3 +24,7 @@ json-server --watch ./dummy/db.json --port 9999
 
 
 https://stackblitz.com/edit/vitejs-vite-zzutuc?file=src%2Fview%2FToDoList.vue
+
+
+DB
+https://supabase.com/
